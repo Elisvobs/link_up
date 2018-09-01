@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/linkup2"
+            android:contentDescription="@string/app_name" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:padding="8dp"
+            app:cardBackgroundColor="#FBF7F7"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp">
+
+                    <android.support.design.widget.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:hintEnabled="true"
+                        android:hint="@string/enter_mobile_number"
+                        app:errorEnabled="true">
+
+                        <EditText
+                            android:id="@+id/phoneNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingTop="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_phone_black_24dp"
+                            android:drawableStart="@drawable/ic_phone_black_24dp"
+                            android:drawablePadding="15dp"
+                            android:hint="@string/_263_70_123_4567"
+                            android:inputType="phone"
+                            android:maxLength="14"
+                            android:ems="15"
+                            android:imeOptions="actionDone"/>
+                    </android.support.design.widget.TextInputLayout>
+
+                    <ImageView
+                        android:id="@+id/verifiedSign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:visibility="invisible"
+                        android:contentDescription="@string/status_verification_succeeded" />
+
+                    <!--android:src="@drawable/ic_check_circle_black_24dp"-->
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/verificationed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/rect_text_edit"
+                    android:hint="@string/enter_code"
+                    android:inputType="number"
+                    android:focusable="true"
+                    android:padding="8dp"
+                    android:visibility="invisible" />
+
+                <Button
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:id="@+id/sendverifybt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:layout_margin="8dp"
+                    android:text="@string/proceed"
+                    android:textSize="24sp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:tag="@string/tag_send" />
+
+                <TextView
+                    android:id="@+id/timertv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:clickable="true"
+                    android:textSize="20sp"
+                    android:focusable="true" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

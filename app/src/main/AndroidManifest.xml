@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inosuctechnologies.linkup">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+        <meta-data
+            android:name="com.facebook.accountkit.FacebookAppEventsEnabled"
+            android:value="false" />
+
+
+        <!-- <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" /> -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BusinessTypeActivity" />
+        <activity android:name=".ProductCategoriesActivity" />
+        <activity android:name=".MyProductsActivity" />
+        <activity
+            android:name=".ui.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".TrialActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.SignUpActivity" />
+        <activity
+            android:name=".ui.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".ui.AuthenticationActivity"></activity>
+    </application>
+
+</manifest>

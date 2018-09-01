@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Link Up</string>
+    <string name="action_search">Dinga</string>
+    <string name="language_settings">Guqula ulimi</string>
+    <string name="lang_dialog_title">Khetha ulimi</string>
+    <string name="other">Okunye</string>
+    <string name="share">Nika abanye</string>
+    <string name="help">Uncedo</string>
+    <string name="nr">Ndebele</string>
+    <string name="logo_in">Ngena</string>
+    <string name="sign_up">Bhalela</string>
+    <string name="mobile_number">Inhombolo</string>
+    <string name="home">Ekhaya</string>
+    <string name="en">Isikhiwa</string>
+    <string name="log_out">Phuma</string>
+    <string name="action_cancel">Nxtitsha</string>
+    <string name="sn">Isishona</string>
+    <string name="change_password">"Guqula "</string>
+    <string name="search_hint">Dinga izinto ngomsebenzo</string>
+    <string name="my_products">Izinto zami</string>
+    <string name="business_type">Umhlobo webhizimusi</string>
+    <string name="about">Okwethu</string>
+    <string name="logging_in">Siyangena pakhamani</string>
+    <string name="pin_code">Isivhalo</string>
+    <string name="categories">Izikamu</string>
+    <string name="hint_phone_number">Inhombolo</string>
+    <string name="log_in">Ngena</string>
+</resources>

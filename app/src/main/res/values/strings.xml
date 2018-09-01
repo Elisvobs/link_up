@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">LinkUP</string>
+    <string name="FACEBOOK_APP_ID" translatable="false">428255607683270</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">[ACCOUNT_KIT_CLIENT_TOKEN]</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">LinkUP</string>
+    <string name="nav_header_subtitle" translatable="false">www.ist.co.zw</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="home">Home</string>
+    <string name="action_search">Search</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="search_hint">Search Products and Services</string>
+    <string name="my_products">My Products</string>
+    <string name="business_type">Business Type</string>
+    <string name="categories">Categories</string>
+    <string name="language_settings">Change Language</string>
+    <string name="lang_dialog_title">Choose Language</string>
+    <string name="other">Other</string>
+    <string name="share">Share</string>
+    <string name="about">"About "</string>
+    <string name="help">Help</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="change_password">Change Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="pin_code">Password</string>
+    <string name="logging_in">Logging in. Please wait.</string>
+    <string name="en">English</string>
+    <string name="nr">Ndebele</string>
+    <string name="sn">Shona</string>
+    <string name="proceed">Continue</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="resend_code">RESEND</string>
+    <string name="code_resend">Resending verification code…</string>
+    <string name="code_verified">Successfully Verified</string>
+    <string name="verification_status">Please wait…</string>
+    <string name="invalid_code">Verification Failed !! Invalid verification Code</string>
+    <string name="many_requests">Verification Failed !! Too many request. Please try later. </string>
+    <string name="_263_70_123_4567" translatable="false">+263 70 123 4567</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="tag_send">Send</string>
+    <string name="tag_verify">Verify</string>
+    <string name="status_verification_succeeded">Verification Success</string>
+    <string name="share_message">I use LinkUP for Android to link up with buyers and sellers of products and services.
+        Try it: https://"linkup.ist.co.zw/mobile/feed.php/"</string>
+    <string name="no_connection">No Internet connection. Make sure that Wi-Fi or cellular mobile data is turned on, then try again</string>
+    <string name="timed_out">Connection timed out</string>
+    <string name="dis_content">The users acknowledge that the use of this service is made at their own discretion and risk,
+        thus holding LinkUP harmless of all liability. LinkUP neither holds or is responsible for the content to which
+        the user has access through this service. LinkUP likewise has no responsibility whatsoever for the quality,
+        availability or performance of the service or lawfulness of their use. LinkUP is unable to guarantee that the
+        services advertised are accurate, complete or does not breach the rights of the third party. It likewise assumes
+        no liability whatsoever for any product or services advertised or offered by third parties. </string>
+    <string name="about_content">LinkUP is an application for Android devices that enables users to view products or
+        services on offer, place details of the product or service they are offering and link with individuals who are
+        interested or are offering products or services. LinkUP has no control whatsoever nor may it be held liable for
+        the content or location of the products and services, which shall be the sole responsibility of the third-party
+        offering them. Furthermore, LinkUP may not be held liable for any failures in the display of content, Internet
+        connections, viruses, etc. that may pose a threat to your device.</string>
+    <string name="privacy_content">We collect certain personal information that you voluntarily provide to us. For example,
+        we maybe collect your name, phone number and email address when you register an account or contact us by email.
+        When you interact with our service, we collect information such as the language you use on the application,
+        your device type and version, browsing activity, location and other technical data relating to your device.
+        This information is only used to assist us in providing effective service.</string>
+
+    <string name="title_activity_trial">TrialActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="about_linkup">About LinkUP</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_header_content_language">Content Language</string>
+
+    <!-- Language select dialog -->
+    <string name="pref_title_lang_select">Change language</string>
+    <string name="signup_here">Not registered!! Sign Up Here</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="terms_and_conditions">I agree with terms and conditions</string>
+    <string name="login_here">Already registered!! Log In Here</string>
+    <string-array name="pref_lang_titles">
+        <item>Shona</item>
+        <item>Ndebele</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="pref_lang_select_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+</resources>

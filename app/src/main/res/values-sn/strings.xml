@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Link Up</string>
+    <string name="action_search">Tsvaga</string>
+    <string name="language_settings">Chinja mutauro</string>
+    <string name="lang_dialog_title">Sarudza mutauro</string>
+    <string name="other">Zvimwe</string>
+    <string name="share">Ipa vamwe</string>
+    <string name="help">Rubatsiro</string>
+    <string name="about">Zvedu</string>
+    <string name="logo_in">Pinda</string>
+    <string name="mobile_number">Nhamba dzerunhare</string>
+    <string name="logging_in">Tirikupinda chimbomira</string>
+    <string name="pin_code">Pasikhodhi</string>
+    <string name="log_out">Buda</string>
+    <string name="sign_up">Nyorera</string>
+    <string name="change_password">Chinja pasikhodi</string>
+    <string name="business_type">Mhando yebhizimusi</string>
+    <string name="en">Chirungu</string>
+    <string name="home">Kumba</string>
+    <string name="categories">Zvikamu</string>
+    <string name="nr">Ndebele</string>
+    <string name="action_cancel">Cheka</string>
+    <string name="sn">Shona</string>
+    <string name="my_products">Zvinhu zvangu</string>
+    <string name="search_hint">Tsvaka mhando namashandiro</string>
+    <string name="enter_mobile_number">Nyora nhamba dzerunhare</string>
+    <string name="proceed">Enderera mberi</string>
+    <string name="hint_phone_number">Nhamba dzerunhare</string>
+    <string name="resend_phone_auth">Tumira zvekare</string>
+    <string name="log_in">Pinda</string>
+</resources>

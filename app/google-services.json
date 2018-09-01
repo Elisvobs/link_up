@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "918964266116",
+    "firebase_url": "https://link-up-777ea.firebaseio.com",
+    "project_id": "link-up-777ea",
+    "storage_bucket": "link-up-777ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918964266116:android:ce559c8d9de9c59c",
+        "android_client_info": {
+          "package_name": "com.inosuctechnologies.linkup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918964266116-nsbbiovv2sqqrrdehhdpqknu8h4n13u4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inosuctechnologies.linkup",
+            "certificate_hash": "6b666876e1f16afa146950eed95fcf5285221876"
+          }
+        },
+        {
+          "client_id": "918964266116-8aijsboc7dkmnrqafs4auvngbqv00g6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNiNwEi9HJgH58xuR-8wHoTGfERMlZek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918964266116-8aijsboc7dkmnrqafs4auvngbqv00g6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
